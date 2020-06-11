@@ -85,8 +85,6 @@ html,body
 	position: absolute;
 	top: 0;
 	display: flex;
-	padding-left: 40%;
-	padding-right: 40%;
 	align-items: center;
 	flex-direction: column;
 	align-content: center;
@@ -95,16 +93,19 @@ html,body
 
 }
 .name {
+	margin-top: 0vw;
+	padding-left: 40%;
+	padding-right: 40%;
 	color: cornsilk; 
-	margin-top: 0px;
-	font-size: 1.7vw;
-	font-weight: 600;
+	font-size: 1.2vw;
+	font-weight: 650;
 	position: absolute;
+	top: 4vw;
 }
 .img-content .description{
 	transition: 1s;
 	color: transparent;
-	font-weight: 600;
+	font-weight: 650;
 	
 }
 .img-content:hover .description{
@@ -115,9 +116,8 @@ html,body
 	filter: brightness(10%);
 }
 .description {
-	position: relative;
-	font-size: 0.6vw;
-	margin-top: 140px;
+	font-size: 0.8vw;
+	padding: 7vw;
 }
 p {
 	display: inline;
