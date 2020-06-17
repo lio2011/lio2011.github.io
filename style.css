@@ -90,17 +90,21 @@ html,body
 	align-content: center;
 	justify-content: center;
 	padding-top: 2%;
+	left: 10%;
 
 
 }
 .name {
 	margin-top: 0.8vw;
-	margin-left: 4vw;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
 	color: cornsilk; 
 	font-size: 2.5vh;
 	font-weight: 650;
 	position: absolute;
 	top: 10%;
+	
 }
 .img-content .description{
 	transition: 1s;
@@ -149,6 +153,7 @@ p {
 	border-radius: 20px;
 	border-color: teal;
 	border-width: 3px;
+	width: 75%;
 }
 .text {
 	margin-left: 2px;
