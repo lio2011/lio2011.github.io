@@ -75,8 +75,8 @@ html,body
 	position: relative;
 }
 .img-bg {
-	height: 300px;
-	max-width: 100%;
+	height: 35vh;
+	width: 100% ;
 	background-size:cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -94,14 +94,13 @@ html,body
 
 }
 .name {
-	margin-top: 0vw;
-	padding-left: 40%;
-	padding-right: 40%;
+	margin-top: 0.8vw;
+	margin-left: 4vw;
 	color: cornsilk; 
-	font-size: 1.2vw;
+	font-size: 2.5vh;
 	font-weight: 650;
 	position: absolute;
-	top: 4vw;
+	top: 10%;
 }
 .img-content .description{
 	transition: 1s;
@@ -117,8 +116,11 @@ html,body
 	filter: brightness(10%);
 }
 .description {
-	font-size: 0.8vw;
-	padding: 7vw;
+	font-size: 1.5vh;
+	align-items: center;
+	margin-top: 9.5vh;
+	margin-left: 4vw;
+
 }
 p {
 	display: inline;
